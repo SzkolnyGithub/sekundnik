@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="katyBadowski4c.MainPage">
+
+
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0">
+
+        <Line 
+                X1="0"
+                Y1="0"
+                X2="0"
+                Y2="100"
+                AnchorY="1"
+                Stroke="black"
+                StrokeThickness="5"
+                x:Name="kreciolek"
+                HorizontalOptions="Center"/>
+
+        <Label 
+            Text="0"
+            x:Name="label"/>
+
+        <Button 
+                Margin="50"
+                Text="Obróć linię"
+                Clicked="obrot"
+                x:Name="przycisk"/>
+            
+        </VerticalStackLayout>
+
+
+</ContentPage>
